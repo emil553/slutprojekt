@@ -1,0 +1,61 @@
+body{
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin:0;
+}
+
+header{
+background-color: darkgreen;
+color:white;
+padding:2rem;
+text-align:center;
+}
+
+.menu{
+list-style:none;
+display:flex;
+background-color:black;
+padding:1rem;
+}
+
+.menu li{
+margin-right:2rem;
+}
+
+.menu a{    
+color:white;
+text-decoration:none;
+}
+
+.grid-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:2rem;
+padding:5%;
+}
+
+.main-image{
+width:60%;
+height:auto;
+}
+
+.gallery-image{
+width:300px;
+}
+
+table{
+border-collapse:collapse;
+width:80%;
+}
+
+table, th, td{
+border:1px solid black;
+padding:1rem;
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:50%;
+gap:1rem;
+}
